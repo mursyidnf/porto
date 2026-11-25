@@ -220,9 +220,10 @@ export const TRANSLATIONS = {
       downloadBib: "Download .bib"
     },
     cv: {
-      modalHeading: "Academic Curriculum Vitae",
-      downloadMd: "Download Markdown",
-      printPdf: "Print / Save PDF"
+      modalHeading: "Curriculum Vitae",
+      downloadMd: "Save MD",
+      printPdf: "Print",
+      downloadPdf: "Download PDF"
     },
     footer: {
       quote: "\"Built with curiosity, logic, and purpose.\"",
@@ -453,9 +454,10 @@ export const TRANSLATIONS = {
       downloadBib: "Unduh .bib"
     },
     cv: {
-      modalHeading: "Curriculum Vitae Akademik",
-      downloadMd: "Unduh Markdown",
-      printPdf: "Cetak / Simpan PDF"
+      modalHeading: "Curriculum Vitae",
+      downloadMd: "Simpan MD",
+      printPdf: "Cetak",
+      downloadPdf: "Unduh PDF"
     },
     footer: {
       quote: "\"Dibangun dengan rasa ingin tahu, logika, dan tujuan.\"",

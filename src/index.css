@@ -107,29 +107,64 @@
 }
 
 /* Print Styles for CV */
+@page {
+  size: A4 portrait;
+  margin: 12mm 14mm;
+}
+
 @media print {
-  body {
+  html, body {
     background: white !important;
     color: black !important;
+    height: auto !important;
+    overflow: visible !important;
   }
-  body * {
-    visibility: hidden;
+
+  body.cv-modal-open #root > div {
+    min-height: 0 !important;
   }
-  #printable-cv, #printable-cv * {
-    visibility: visible;
+
+  body.cv-modal-open header,
+  body.cv-modal-open main,
+  body.cv-modal-open footer {
+    display: none !important;
   }
-  #printable-cv {
-    position: absolute;
-    left: 0;
-    top: 0;
+
+  body.cv-modal-open #cv-modal-backdrop,
+  body.cv-modal-open #cv-modal-dialog,
+  body.cv-modal-open #cv-paper-wrapper {
+    position: static !important;
+    inset: auto !important;
+    display: block !important;
     width: 100% !important;
     max-width: 100% !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    padding: 0 !important;
     margin: 0 !important;
-    padding: 20mm !important;
+    background: white !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  body.cv-modal-open #cv-modal-toolbar {
+    display: none !important;
+  }
+
+  body.cv-modal-open #printable-cv {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
     border: none !important;
     box-shadow: none !important;
     background: white !important;
-    color: #111827 !important;
+    color: #111111 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 }
 
