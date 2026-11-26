@@ -210,7 +210,9 @@ export const TRANSLATIONS = {
       thankYouDesc: "Your message has been formatted and received. I look forward to reading your thoughts and exploring collaboration.",
       sendAnother: "Send Another Message",
       directEmailHelp: "Direct inquiries can also be dispatched directly to",
-      copyEmail: "Copy Email"
+      copyEmail: "Copy Email",
+      errorGeneric: "Failed to send message. Please check your input and try again.",
+      errorNetwork: "Network error while sending message. Please try again later."
     },
     citation: {
       toolTitle: "Academic Citation Tool",
@@ -444,7 +446,9 @@ export const TRANSLATIONS = {
       thankYouDesc: "Pesan Anda telah diformat dan diterima. Saya menantikan untuk membaca gagasan Anda dan mendiskusikan kolaborasi.",
       sendAnother: "Kirim Pesan Lainnya",
       directEmailHelp: "Pertanyaan atau pesan langsung juga dapat dikirimkan ke",
-      copyEmail: "Salin Email"
+      copyEmail: "Salin Email",
+      errorGeneric: "Gagal mengirim pesan. Periksa kembali isian Anda dan coba lagi.",
+      errorNetwork: "Terjadi gangguan jaringan saat mengirim pesan. Silakan coba lagi nanti."
     },
     citation: {
       toolTitle: "Perangkat Sitasi Akademik",
